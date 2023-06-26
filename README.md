@@ -10,6 +10,12 @@ To get started with the app, you can simply open the `index.html` file in a web 
 
 - jQuery: The jQuery library is used to handle the click event and update the counter value in real-time.
 
+## License
+
+This project is licensed under the MIT License. You are free to use, modify, and distribute this code as you wish.
+
+Feel free to modify and customize the README as needed for your specific project. Let me know if there's anything else I can help you with!
+
 ## Code Explanation
 
 The main logic of the app is contained within the following JavaScript code:
@@ -25,10 +31,5 @@ $(document).ready(function() {
   });
 });
 
-## License
-
-This project is licensed under the MIT License. You are free to use, modify, and distribute this code as you wish.
-
-Feel free to modify and customize the README as needed for your specific project. Let me know if there's anything else I can help you with!
 
 
