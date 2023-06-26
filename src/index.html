@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contador de Clicks</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <style>
+    .counter {
+      font-size: 24px;
+      text-align: center;
+      margin-top: 20px;
+    }
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #337ab7;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Contador de Clicks</h1>
+  <div class="counter">0</div>
+  <a href="#" class="btn">Incrementar</a>
+
+  <script>
+    $(document).ready(function() {
+      let count = 0;
+      
+      $('.btn').click(function(e) {
+        e.preventDefault();
+        count++;
+        $('.counter').text(count);
+      });
+    });
+  </script>
+</body>
+</html>
